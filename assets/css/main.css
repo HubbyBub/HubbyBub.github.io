@@ -95,7 +95,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #b5d0c7;
+		background: #ff7595;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -140,7 +140,7 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		color: #ffffff;
+		color: #23e0ff;
 		font-family: "Source Sans Pro", sans-serif;
 		font-weight: 300;
 		font-size: 1rem;
@@ -162,7 +162,7 @@ input, select, textarea {
 		}
 
 	strong, b {
-		color: #ffffff;
+		color:  #ff97a2  ;
 		font-weight: 600;
 	}
 
@@ -175,7 +175,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #ffffff;
+		color: 	#ff97a2;
 		font-weight: 600;
 		line-height: 1.5;
 		margin: 0 0 1rem 0;
@@ -189,7 +189,7 @@ input, select, textarea {
 		}
 
 		h1.major, h2.major, h3.major, h4.major, h5.major, h6.major {
-			border-bottom: solid 1px #ffffff;
+			border-bottom: solid 10px #ff7595;
 			width: -moz-max-content;
 			width: -webkit-max-content;
 			width: -ms-max-content;
@@ -253,7 +253,7 @@ input, select, textarea {
 	}
 
 	blockquote {
-		border-left: solid 4px #ffffff;
+		border-left: solid 4px #ff7595;
 		font-style: italic;
 		margin: 0 0 2rem 0;
 		padding: 0.5rem 0 0.5rem 2rem;
@@ -284,7 +284,7 @@ input, select, textarea {
 
 	hr {
 		border: 0;
-		border-bottom: solid 1px #ffffff;
+		border-bottom: solid 1px #ff7595;
 		margin: 2.75rem 0;
 	}
 
@@ -375,7 +375,7 @@ input, select, textarea {
 		}
 
 	label {
-		color: #ffffff;
+		color: #ff7595;
 		display: block;
 		font-size: 0.8rem;
 		font-weight: 300;
@@ -401,7 +401,7 @@ input, select, textarea {
 		transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
 		background-color: transparent;
 		border-radius: 4px;
-		border: solid 1px #ffffff;
+		border: solid 1px #ff7595;
 		color: inherit;
 		display: block;
 		outline: 0;
@@ -426,8 +426,8 @@ input, select, textarea {
 		select:focus,
 		textarea:focus {
 			background: rgba(255, 255, 255, 0.075);
-			border-color: #ffffff;
-			box-shadow: 0 0 0 1px #ffffff;
+			border-color: #ff7595;
+			box-shadow: 0 0 0 1px #ff7595;
 		}
 
 	select {
@@ -441,8 +441,8 @@ input, select, textarea {
 	}
 
 		select option {
-			color: #ffffff;
-			background: #b5d0c7;
+			color: #ff7595;
+			background: #ff7595;
 		}
 
 		select:focus::-ms-value {
@@ -485,7 +485,7 @@ input, select, textarea {
 			-webkit-user-select: none;
 			-ms-user-select: none;
 			user-select: none;
-			color: #ffffff;
+			color: #ff7595;	
 			cursor: pointer;
 			display: inline-block;
 			font-size: 0.8rem;
@@ -512,8 +512,8 @@ input, select, textarea {
 				-webkit-transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
 				-ms-transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
 				transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
-				border-radius: 4px;
-				border: solid 1px #ffffff;
+				border-radius: 1px;
+				border: solid 1px #ff7595;
 				content: '';
 				display: inline-block;
 				height: 1.65rem;
@@ -527,17 +527,17 @@ input, select, textarea {
 
 		input[type="checkbox"]:checked + label:before,
 		input[type="radio"]:checked + label:before {
-			background: #ffffff !important;
-			border-color: #ffffff !important;
-			color: #1b1f22;
+			background: #ff7595 !important;
+			border-color: #ff7595 !important;
+			color: #ff7595;
 			content: '\f00c';
 		}
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
 			background: rgba(255, 255, 255, 0.075);
-			border-color: ##b5d0c7;
-			box-shadow: 0 0 0 1px #ffffff;
+			border-color: #ff7595;
+			box-shadow: 0 0 0 1px #ff7595;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -577,7 +577,7 @@ input, select, textarea {
 
 	.box {
 		border-radius: 4px;
-		border: solid 1px #b5d0c7;
+		border: solid 1px #ff7595;
 		margin-bottom: 2rem;
 		padding: 1.5em;
 	}
@@ -728,7 +728,7 @@ input, select, textarea {
 		}
 
 			ul.alt li {
-				border-top: solid 1px #ffffff;
+				border-top: solid 1px #ff7595;
 				padding: 0.5em 0;
 			}
 
@@ -892,7 +892,7 @@ input, select, textarea {
 
 			ul.icons li a {
 				border-radius: 100%;
-				box-shadow: inset 0 0 0 1px #ffffff;
+				box-shadow: inset 0 0 0 1px #ff7595;
 				display: inline-block;
 				height: 2.25rem;
 				line-height: 2.25rem;
@@ -921,7 +921,7 @@ input, select, textarea {
 	}
 
 		table tbody tr {
-			border: solid 1px #ffffff;
+			border: solid 1px #ff7595;
 			border-left: 0;
 			border-right: 0;
 		}
@@ -935,7 +935,7 @@ input, select, textarea {
 		}
 
 		table th {
-			color: #b5d0c7;
+			color: #ff7595;
 			font-size: 0.9em;
 			font-weight: 600;
 			padding: 0 0.75em 0.75em 0.75em;
@@ -1154,7 +1154,7 @@ input, select, textarea {
 		}
 
 		body.is-preload #bg:before {
-			background-color: #ff97a2;
+			background-color: #ff7595;
 		}
 
 /* Wrapper */
@@ -1271,7 +1271,7 @@ input, select, textarea {
 			width: 5.5rem;
 			height: 5.5rem;
 			line-height: 5.5rem;
-			border: solid 1px #ffffff;
+			border: solid 1px #ff97a2 ;
 			border-radius: 100%;
 		}
 
@@ -1281,7 +1281,7 @@ input, select, textarea {
 
 		#header .content {
 			border-style: solid;
-			border-color: #ffffff;
+			border-color: #ff97a2 ;
 			border-top-width: 1px;
 			border-bottom-width: 1px;
 			max-width: 100%;
@@ -1320,13 +1320,13 @@ input, select, textarea {
 			margin-bottom: 0;
 			list-style: none;
 			padding-left: 0;
-			border: solid 1px #ffffff;
-			border-radius: 4px;
+			border: solid 1px #ff97a2 ;
+			border-radius: 16px;
 		}
 
 			#header nav ul li {
 				padding-left: 0;
-				border-left: solid 1px #ffffff;
+				border-left: solid 1px #ff97a2 ;
 			}
 
 				#header nav ul li:first-child {
@@ -1361,7 +1361,7 @@ input, select, textarea {
 			left: calc(50% - 1px);
 			width: 1px;
 			height: 100%;
-			background: #ffffff;
+			background: #ff97a2 ;
 		}
 
 		#header nav.use-middle ul li.is-middle {
@@ -1458,7 +1458,7 @@ input, select, textarea {
 
 					#header nav ul li {
 						border-left: 0;
-						border-top: solid 1px #ffffff;
+						border-top: solid 1px #ff97a2 ;
 					}
 
 						#header nav ul li:first-child {
